@@ -1,17 +1,18 @@
 html{
     background-color: #f5d04e;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 body{
     background-color: #ffffff;
     text-align: left;
     font-family: sans-serif;
-    width: 350px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    max-width: 300px;
+    margin: 30px;
     padding: 20px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -40,9 +41,9 @@ div img{
     -o-border-radius: 10px;
 }
 
-header p{line-height: 40px;}
+header .p{line-height: 40px;}
 
-p span{
+.p span{
     font-weight: bold;
     background-color: #f5d04e;
     padding: 10px;
